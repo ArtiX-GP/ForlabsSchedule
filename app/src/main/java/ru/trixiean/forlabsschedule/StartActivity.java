@@ -111,10 +111,10 @@ public class StartActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ThemeWrapper.onActivityApplyTheme(this, true);
-        setContentView(R.layout.activity_start);
+        //setContentView(R.layout.activity_start);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //setSupportActionBar(toolbar);
 
         mToolbarTitleView = findViewById(R.id.StartToolbarTitle);
 
