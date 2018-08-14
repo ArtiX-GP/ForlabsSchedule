@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ItemLayout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/ItemTimeText"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="08:30"
+        android:textStyle="bold"
+        android:textColor="?attr/TextColorDark"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/ItemTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Практика 1 по получению первичных профессиональных умений и навыков (ин.яз5)"
+        android:gravity="center"
+        android:background="@drawable/header_group_background"
+        android:textColor="?attr/ColorTopDark" />
+</LinearLayout>

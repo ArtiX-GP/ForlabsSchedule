@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    signingConfigs {
+        configRelease {
+            keyAlias 'Trixiean'
+            keyPassword 'delta2OP'
+            storeFile file('C:/Users/Nikita/Desktop/FS.jks')
+            storePassword 'mencurebar48'
+        }
+    }
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "ru.trixiean.forlabsschedule"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 7
+        versionName "2.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.configRelease
+            debuggable false
+            jniDebuggable false
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //RecyclerView
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation 'com.android.support:recyclerview-v7:27.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.1.0-beta4'
+    compile 'com.android.support:design:27.0.2'
+    implementation 'com.android.support:support-v4:27.0.2'
+    compile 'com.android.support:support-vector-drawable:27.0.2'
+    testCompile 'junit:junit:4.12'
+
+    def acraVersion = '5.1.3'
+    implementation "ch.acra:acra-mail:$acraVersion"
+    implementation "ch.acra:acra-dialog:$acraVersion"
+}

@@ -1,0 +1,210 @@
+<resources>
+
+    <attr name="ColorTop" format="color" />
+    <attr name="ColorTopDark" format="color" />
+    <attr name="ColorTopAccent" format="color" />
+    <attr name="ColorTopBackground" format="color" />
+    <attr name="ColorTopStroke" format="color" />
+
+    <attr name="ColorBottom" format="color" />
+    <attr name="ColorBottomDark" format="color" />
+    <attr name="ColorBottomAccent" format="color" />
+    <attr name="ColorBottomBackground" format="color" />
+    <attr name="ColorBottomStroke" format="color" />
+
+    <attr name="TextColor" format="color" />
+    <attr name="ToolbarTextColor" format="color" />
+    <attr name="NavigationDrawerItemTextColor" format="color" />
+    <attr name="TextColorDark" format="color" />
+    <attr name="Background" format="color" />
+    <attr name="BackgroundDark" format="color" />
+
+    <attr name="GradientStart" format="color" />
+    <attr name="GradientCenter" format="color" />
+    <attr name="GradientEnd" format="color" />
+
+    <attr name="StrokeEmptyColor" format="color" />
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+
+        <item name="ColorTop">@color/ColorTop</item>
+        <item name="ColorTopDark">@color/ColorTopDark</item>
+        <item name="ColorTopAccent">@color/ColorTopAccent</item>
+        <item name="ColorTopBackground">@color/ColorTopBackground</item>
+        <item name="ColorTopStroke">@color/ColorTopStroke</item>
+
+        <item name="ColorBottom">@color/ColorBottom</item>
+        <item name="ColorBottomDark">@color/ColorBottomDark</item>
+        <item name="ColorBottomAccent">@color/ColorBottomAccent</item>
+        <item name="ColorBottomBackground">@color/ColorBottomBackground</item>
+        <item name="ColorBottomStroke">@color/ColorBottomStroke</item>
+
+        <item name="ToolbarTextColor">@color/White</item>
+        <item name="NavigationDrawerItemTextColor">@color/DarculaBackgroundColor</item>
+        <item name="TextColor">@color/DarculaBackgroundColor</item>
+        <item name="TextColorDark">@color/TextColorDark</item>
+        <item name="Background">@color/DarculaTextColor</item>
+        <item name="BackgroundDark">@color/BackgroundDark</item>
+
+        <item name="StrokeEmptyColor">@color/BackgroundDark</item>
+
+        <item name="GradientStart">@color/GradientStartColor</item>
+        <item name="GradientCenter">@color/GradientCenterColor</item>
+        <item name="GradientEnd">@color/GradientEndColor</item>
+
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="AppTheme.Darcula" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/DarculaColorPrimary</item>
+        <item name="colorPrimaryDark">@color/DarculaColorPrimaryDark</item>
+        <item name="colorAccent">@color/DarculaColorAccent</item>
+        <item name="android:typeface">monospace</item>
+
+        <item name="ColorTop">@color/DarculaColorTop</item>
+        <item name="ColorTopDark">@color/DarculaColorTopDark</item>
+        <item name="ColorTopAccent">@color/DarculaColorTopAccent</item>
+        <item name="ColorTopBackground">@color/DarculaColorTopBackground</item>
+        <item name="ColorTopStroke">@color/DarculaColorTopStroke</item>
+
+        <item name="ColorBottom">@color/DarculaColorBottom</item>
+        <item name="ColorBottomDark">@color/DarculaColorBottomDark</item>
+        <item name="ColorBottomAccent">@color/DarculaColorBottomAccent</item>
+        <item name="ColorBottomBackground">@color/DarculaColorBottomBackground</item>
+        <item name="ColorBottomStroke">@color/DarculaColorBottomStroke</item>
+
+        <item name="ToolbarTextColor">@color/White</item>
+        <item name="NavigationDrawerItemTextColor">@color/DarculaTextColor</item>
+        <item name="TextColor">@color/DarculaTextColor</item>
+        <item name="TextColorDark">@color/DarculaTextColorDark</item>
+        <item name="Background">@color/DarculaBackgroundColor</item>
+        <item name="BackgroundDark">@color/DarculaBackgroundDark</item>
+
+        <item name="StrokeEmptyColor">@color/DarculaBackgroundDark</item>
+
+        <item name="GradientStart">@color/DarculaGradientStartColor</item>
+        <item name="GradientCenter">@color/DarculaGradientCenterColor</item>
+        <item name="GradientEnd">@color/DarculaGradientEndColor</item>
+
+    </style>
+
+    <!-- Red Wine theme. -->
+    <style name="AppTheme.RedWine" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/RedWineColorAccent</item>
+        <item name="android:textColorSecondary">@color/RedWineColorPrimaryDark</item>
+        <item name="colorControlNormal">@color/RedWineColorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="colorPrimary">@color/RedWineColorPrimary</item>
+        <item name="colorPrimaryDark">@color/RedWineColorPrimaryDark</item>
+        <item name="colorAccent">@color/RedWineColorAccent</item>
+        <item name="android:typeface">monospace</item>
+
+        <item name="ColorTop">@color/RedWineColorTop</item>
+        <item name="ColorTopDark">@color/RedWineColorTopDark</item>
+        <item name="ColorTopAccent">@color/RedWineColorTopAccent</item>
+        <item name="ColorTopBackground">@color/RedWineColorTopBackground</item>
+        <item name="ColorTopStroke">@color/RedWineColorTopStroke</item>
+
+        <item name="ColorBottom">@color/RedWineColorBottom</item>
+        <item name="ColorBottomDark">@color/RedWineColorBottomDark</item>
+        <item name="ColorBottomAccent">@color/RedWineColorBottomAccent</item>
+        <item name="ColorBottomBackground">@color/RedWineColorTopBackground</item>
+        <item name="ColorBottomStroke">@color/RedWineColorTopStroke</item>
+
+        <item name="ToolbarTextColor">@color/RedWineColorAccent</item>
+        <item name="NavigationDrawerItemTextColor">@color/RedWineColorAccent</item>
+        <item name="TextColor">@color/RedWineTextColor</item>
+        <item name="TextColorDark">@color/RedWineColorPrimaryDark</item>
+        <item name="Background">@color/RedWineBackgroundDark</item>
+        <item name="BackgroundDark">@color/RedWineBackgroundDark</item>
+
+        <item name="StrokeEmptyColor">@color/RedWineStrokeEmptyColor</item>
+
+        <item name="GradientStart">@color/RedWineGradientStartColor</item>
+        <item name="GradientCenter">@color/RedWineGradientCenterColor</item>
+        <item name="GradientEnd">@color/RedWineGradientEndColor</item>
+
+    </style>
+
+    <!-- Red Wine theme. -->
+    <style name="AppTheme.Neon" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/NeonColorPrimary</item>
+        <item name="colorPrimaryDark">@color/NeonColorPrimaryDark</item>
+        <item name="colorAccent">@color/NeonColorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerNeonArrowStyle</item>
+        <item name="android:typeface">monospace</item>
+
+        <item name="ColorTop">@color/NeonColorTop</item>
+        <item name="ColorTopDark">@color/NeonColorTopDark</item>
+        <item name="ColorTopAccent">@color/NeonColorTopAccent</item>
+        <item name="ColorTopBackground">@color/NeonColorBottomBackground</item>
+        <item name="ColorTopStroke">@color/NeonColorBottomStroke</item>
+
+        <item name="ColorBottom">@color/NeonColorBottom</item>
+        <item name="ColorBottomDark">@color/NeonColorBottomDark</item>
+        <item name="ColorBottomAccent">@color/NeonColorBottomAccent</item>
+        <item name="ColorBottomBackground">@color/NeonColorBottomBackground</item>
+        <item name="ColorBottomStroke">@color/NeonColorBottomStroke</item>
+
+        <item name="ToolbarTextColor">@color/NeonColorAccent</item>
+        <item name="NavigationDrawerItemTextColor">@color/NeonColorAccent</item>
+        <item name="TextColor">@color/NeonTextColor</item>
+        <item name="TextColorDark">@color/DarculaColorPrimaryDark</item>
+        <item name="Background">@color/NeonBackgroundDark</item>
+        <item name="BackgroundDark">@color/NeonBackgroundDark</item>
+
+        <item name="StrokeEmptyColor">@color/NeonStrokeEmptyColor</item>
+
+        <item name="GradientStart">@color/NeonGradientStartColor</item>
+        <item name="GradientCenter">@color/NeonGradientCenterColor</item>
+        <item name="GradientEnd">@color/NeonGradientEndColor</item>
+
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/RedWineColorAccent</item>
+    </style>
+
+    <style name="DrawerNeonArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/NeonColorAccent</item>
+    </style>
+
+
+    <style name="ButtonOutline">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">?attr/ColorTop</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ToolbarTitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">center</item>
+        <!-- include other attributes you want to change: textColor, textStyle, etc -->
+    </style>
+
+    <style name="ToolbarSubtitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/day_schedule_widget"
+    android:initialLayout="@layout/day_schedule_widget"
+    android:minHeight="180dp"
+    android:minWidth="320dp"
+    android:previewImage="@drawable/example_appwidget_preview"
+    android:resizeMode="vertical|horizontal"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen|keyguard" />

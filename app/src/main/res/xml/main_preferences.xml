@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Основные">
+        <Preference
+            android:key="ChangeGroup"
+            android:title="Изменить группу"
+            android:summary="Выбрать расписание для другой группы" />
+        <SwitchPreference
+            android:key="OddBottom"
+            android:title="Порядок недель"
+            android:summary="Перемести ползунок, чтобы изменить порядок недель" />
+        <!--  <CheckBoxPreference
+              android:key="NeverMindUpdate"
+              android:title="Напоминать об обновлениях"
+              android:summary="Каждые 3 месяца, приложение будет просить вас обновить расписание."
+              android:icon="@drawable/ic_action_alarm"
+              android:defaultValue="true"/>-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Оформление">
+        <ListPreference
+            android:key="ThemeID"
+            android:defaultValue="0"
+            android:title="Тема оформления"
+            android:summary="Выберите одну из доступных тем по Вашему вкусу"
+            android:entryValues="@array/themes_values"
+            android:entries="@array/themes" />
+        <SwitchPreference
+            android:key="ShowNowLesson"
+            android:title="Текущая пара"
+            android:summary="Выделять пару, которая идет в данный момент времени"
+            android:defaultValue="true" />
+        <ru.trixiean.forlabsschedule.Utils.Views.NumberPickerPreference
+            android:key="TitlePaddingRight"
+            android:title="Отступ"
+            android:summary="Корректировка смещения расписания относительно правой границы экрана"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="О программе">
+        <Preference
+            android:enabled="false"
+            android:title="Forlabs Schedule for Android"
+            android:summary="Version: 2.3 @ vk.com/nikkorejz" />
+    </PreferenceCategory>
+</PreferenceScreen>

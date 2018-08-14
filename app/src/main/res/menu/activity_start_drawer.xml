@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_view_day"
+            android:icon="@drawable/ic_view_week"
+            android:title="Расписание по дням" />
+        <item
+            android:id="@+id/action_view_tape"
+            android:icon="@drawable/ic_view_day"
+            android:title="Неделя за неделей" />
+        <!-- <item
+             android:id="@+id/action_view_week"
+             android:icon="@drawable/ic_view_week"
+             android:title="Неделя" />
+         <item
+             android:id="@+id/action_view_month"
+             android:icon="@drawable/ic_view_module"
+             android:title="Месяц" />-->
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_my_studies"
+            android:icon="@drawable/ic_person"
+            android:title="Моя учёба" />
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_update"
+            android:icon="@drawable/ic_action_cloud_download"
+            android:title="Обновить расписание" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Настройки" />
+        <!--<item
+            android:id="@+id/action_share"
+            android:icon="@drawable/ic_share"
+            android:title="Поделиться" />-->
+        <!-- <item
+             android:id="@+id/action_help"
+             android:icon="@drawable/ic_help"
+             android:title="Помощь" />-->
+    </group>
+
+</menu>

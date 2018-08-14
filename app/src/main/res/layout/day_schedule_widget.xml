@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#aa161616"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp">
+
+        <ImageView
+            android:id="@+id/DayWidgetSeason"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tint="#92000000"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/DayWidgetCurrentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/DayWidgetTapToUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/DayWidgetListView"
+        tools:listitem="@layout/item_lesson_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textColor="#FFF"
+        android:text="Сегодня занятий нет, можно отдохнуть!" />
+
+
+</LinearLayout>

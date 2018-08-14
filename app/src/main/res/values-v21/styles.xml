@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme.TransparentStatusBar" parent="AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#4000</item>
+    </style>
+
+    <style name="AppTheme.Darcula.TransparentStatusBar" parent="AppTheme.Darcula">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#4000</item>
+    </style>
+
+    <style name="AppTheme.RedWine.TransparentStatusBar" parent="AppTheme.RedWine">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#e0ffffff</item>
+    </style>
+
+    <style name="AppTheme.Neon.TransparentStatusBar" parent="AppTheme.Neon">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#4000</item>
+    </style>
+
+</resources>

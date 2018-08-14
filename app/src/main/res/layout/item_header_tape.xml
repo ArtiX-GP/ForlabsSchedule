@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TapeDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 августа"
+            android:textStyle="italic"
+            android:paddingRight="8dp"
+            android:textColor="?attr/colorAccent" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/TapeDayWeekTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПН"
+            android:textStyle="bold"
+            android:textColor="?attr/colorAccent" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/TapeDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="?attr/colorAccent" />
+</LinearLayout>

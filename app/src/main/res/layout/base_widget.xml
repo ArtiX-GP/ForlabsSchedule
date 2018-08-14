@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:maxHeight="60dp"
+            android:src="@drawable/september"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_left_arrow" />
+
+        <ImageView
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_right_arrow"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:gravity="center_vertical"
+            android:text="Понедельник,\n21 августа"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            tools:ignore="RtlHardcoded" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/BaseWidgetListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
